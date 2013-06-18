@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HMD Juntos Haciendo Ciencia - Aplicativos web para investigaci&oacute;n cl&iacute;nica</title>
+  
+
+  <!-- Bootstrap -->
+  <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="../../assets/css/hmd.css" rel="stylesheet" media="screen">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24388287-10']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- Google Analytics END -->
+
+</head>
+<body>
+   <!-- superior bar with navigation links -->
+  <div class="navbar  navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+
+        <!-- Smaller Screen Menu: this button appears when screen size is smaller, automaticly colapsing main menu and showing it here -->
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- end of "smaller screen menu"  -->
+        <div class="span8">
+          <a href="index.html">
+           <img src="../../assets/img/logo-main.png" alt="Logo HMD - Juntos haciendo ciencia" style="margin-top: 5px; width:25%">
+          </a>
+        </div>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li><a href="services.html">Servicios</a></li>
+           <!-- <li><a href="index.php?page=portfolio">Soluciones</a></li> -->
+            <li class="dropdown active">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Buscadores<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="http://www.healmydisease.com/codigos/?cie10">C&oacute;digos CIE 10</a></li>
+                    <li><a href="http://www.healmydisease.com/codigos/?cups">C&oacute;digos CUPS</a></li>
+                  </ul>
+            </li>
+            <li><a href="contact.html">Contacto</a></li>
+
+            <!-- <li><a href="../CUPS salud/a01buscadorCUPS.php">Buscador CUPS</a></li> -->
+            <!-- <li><a href="index.php?page=contact">Contacto</a></li> -->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <div id="wrap">
+    <!-- main content -->
+    <?php include 'modules/controller/selector.php';?>
+
+    <!-- The next "push" id div section is important for footer location at the end of the page -->
+    <div id="push"></div>
+  </div>
+
+<!-- footer -->
+ <div class="container">
+    <br>
+    <hr>
+    <div class="row-fluid">
+     <div class="span6">
+      <ul class="unstyled">
+        <li><a href="#myModal" data-toggle="modal" data-target="#myModal" style="margin-left:400px">Pol&iacute;ticas de seguridad</a></li>
+      </ul>
+     </div>
+     <div class="span4">
+      <a href="https://twitter.com/HealMyDisease" target="_blank"><img id="hmd-twitter" src="../../assets/img/hmd-twitter1.png"></a>
+      <a href="http://co.linkedin.com/pub/heal-my-disease/74/84/40a" target="_blank"><img id="hmd-linkedin" src="../../assets/img/hmd-linkedin1.png"></a>  
+     </div>
+     </div>
+     <hr>
+    </div>
+    <!-- Footer Menu END -->
+
+    <!-- Start Privacy Policy -->
+    
+
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+    <p id="myModalLabel"  class="lead" style="lead; margin-top: 30px" >
+      <img src="../../assets/img/logo-navbar.png" style="weight: 56px; height: 29px; opacity: 0.7; margin-left: 15px; margin-right:110px;" align="left">
+      Pol&iacute;tica de Privacidad
+    </p>
+  </div>
+  <div class="modal-body">
+    <p style="margin-left:10px;">
+      La privacidad de nuestros usuarios es sumamente importante para nosotros. 
+      <br/>Las siguientes son nuestras pol&iacute;ticas de privacidad:
+    </p>
+    <br>
+    <ul style="text-align:left">
+      <li style="margin-left:30px;">
+        <p><strong>Nunca le preguntaremos informaci&oacute;n personal excepto de estricta necesidad y bajo su consentimiento.</strong></p>
+      </li>
+      <li style="margin-left:30px;">
+        <p><strong>No compartimos su informaci&oacute;n personal con terceros excepto los casos que estipula la ley Colombiana, el desarollo de 
+          nuestros productos, o la protecci&oacute;n de nuestros derechos.</strong></p>
+      </li>
+      <br>
+      <li style="margin-left:10px;">
+        <p>Si es usuario de investigaciones cl&iacute;nicas activas a traves de HMD la informaci&oacute;n ser&aacute; administrada seg&uacute;n 
+        los acuerdos de confidencialidad que se hayan pactado para tal fin</P>
+      </li>
+    </ul> 
+    <br>
+    <br>
+    <center><p style="font-family: 'Oxygen', sans-serif;color:#B2B2B2;font-size:12px">HMD &copy;. 
+      Es pol&iacute;tica de HMD respetar su privacidad respecto a cualquier informaci&oacute;n que podamos haber obtenido al operar 
+      nuestros productos.</p></center>
+
+    </div>
+    <div class="modal-footer">
+      <button class="btn" data-dismiss="modal" aria-hidden="true">Cerrar</button>
+    </div>
+  </div> 
+    <!--End privacy Policy -->
+
+
+   <!-- Footer Menu END -->
+ 
+    <!-- The next "push" id div section is important for footer location at the end of the page -->
+     <div id="push"></div>
+  </div>
+
+<!-- footer -->
+ <div id="footer">
+  <div class="container offset8">
+     <p class="muted credit">
+    	      Copyright <a href="http://www.healmydisease.com">Heal My Disease</a>
+       2012 - 2013. <a href="mailto:marketing@healmydisease.com">@contáctenos</a>.
+     </p>
+  </div>   
+ </div> 
+<!-- footer END -->
+
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="../../assets/js/bootstrap.js"></script>
+<script src="../../assets/js/hmd.js"></script>
+
+<script type="text/javascript">
+  //temporary js scripts
+
+
+</script>
+
+
+</body>
+</html>
