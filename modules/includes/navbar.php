@@ -12,7 +12,7 @@
         <!-- end of "smaller screen menu"  -->
         <div class="span8">
           <a href="http://www.healmydisease.com/HMD/index.html">
-           <img src="assets/img/logo-main.png" alt="Logo HMD - Juntos haciendo ciencia" style="margin-top: 5px; width:25%">
+           <img src="assets/img/logo-main.png" alt="Logo HMD - Juntos haciendo ciencia" style="margin-top: 10px; width:25%">
           </a>
         </div>
         <div class="nav-collapse collapse">
