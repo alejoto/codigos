@@ -5,7 +5,7 @@
 	<div class="row">
 		<div class="span12">
 			<!-- <h1 class="text-center text-info">BUSCADOR CIE 10</h1> -->
-			<h1 class="offset4 span8 text-info">BUSCADOR CIE 10</h1>
+			<h1 class="offset4 span8 lead-search">BUSCADOR CIE 10</h1>
 		</div>
 	</div>
 	<div class="row">

@@ -35,8 +35,8 @@ include 'modules/includes/imgpaths.php';
       </ul>
      </div>
      <div class="span4">
-      <a href="https://twitter.com/HealMyDisease" target="_blank"><img id="hmd-twitter" src="../../assets/img/hmd-twitter1.png"></a>
-      <a href="http://co.linkedin.com/pub/heal-my-disease/74/84/40a" target="_blank"><img id="hmd-linkedin" src="../../assets/img/hmd-linkedin1.png"></a>  
+      <a href="https://twitter.com/HealMyDisease" target="_blank"><img id="hmd-twitter" src="assets/img/hmd-twitter1.png"></a>
+      <a href="http://co.linkedin.com/pub/heal-my-disease/74/84/40a" target="_blank"><img id="hmd-linkedin" src="assets/img/hmd-linkedin1.png"></a>  
      </div>
      </div>
      <hr>
