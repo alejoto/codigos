@@ -1,16 +1,16 @@
-
+<br>
+<br>
 <div class="container">
 	<br>
 	<br>
 	<div class="row">
 		<div class="span12">
-			<!-- <h1 class="text-center text-info">BUSCADOR CIE 10</h1> -->
-			<h1 class="offset4 span8 lead-search">BUSCADOR CIE 10</h1>
+			<h1 class="offset4 span8 lead-search">Buscador CIE10</h1>
 		</div>
 	</div>
 	<div class="row">
-		<div class="offset4 span8 muted" style="padding-left:30px">
-			<p>El mejor buscador de c&oacute;digos CIE10 disponible en la web</p>
+		<div class="offset4 span8 muted">
+			<p style="leade-small margin-left:30px;">El mejor buscador de c&oacute;digos CIE10 disponible en la web</p>
 			<br>
 			<br>
 			<br>

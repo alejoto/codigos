@@ -22,6 +22,17 @@ include 'modules/includes/imgpaths.php';
   </div>
 
 
+<!-- Links to main -->
+<div class="container">
+  <hr style="width:68%; margin-left:16%">
+  <div class="row-fluid span12">
+    <div class="offset4">
+      <a class="lead-medium span4" href="http://www.healmydisease.com/HMD/services.html">Con&oacute;cenos</a>
+      <a class="lead-medium span4" href="http://www.healmydisease.com/HMD/contact.html">Contacto</a>
+    </div>  
+  </div>
+</div>
+
 <!-- footer -->
 <!-- Footer Menu END -->
 

@@ -3,12 +3,12 @@
 <div class="container">
 	<div class="row">
 		<div class="span12">
-			<h1 class="offset4 span8 lead-search">BUSCADOR CUPS</h1>
+			<h1 class="offset4 span8 lead-search">Buscador CUPS</h1>
 		</div>
 	</div>
 	<div class="row">
-		<div class="span12">
-			<p class="offset4 span8 muted">Clasificación Única de Procedimientos en Salud</p>
+		<div class="offset4 span8 muted">
+			<p class="lead-small" style="margin-left:30px;">El mejor buscador Clasificación Única de Procedimientos en Salud</p>
 		</div>
 	</div>
 	<br>
