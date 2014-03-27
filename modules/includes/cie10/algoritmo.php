@@ -385,7 +385,9 @@ if ($diagnostico=="PRESUNCION") {$diagnostico="PRESUNT";$adv=$advice;}
 if ($diagnostico=="MENINGIOMA") {$diagnostico="TUMOR BENIGNO DE LAS MENINGES";$adv=$advice;}
 if ($diagnostico=="AMENAZA DE PARTO PREMATURO"||$diagnostico=="AMENAZA DE PARTO PRETERMINO"
 ||$diagnostico=="AMENAZA PARTO" ) {$diagnostico="O600";$adv=$advice;}
-if ($diagnostico=="RUPTURA PREMATURA DE MEMBRANAS"||$diagnostico=="ROTURA PREMATURA DE MEMBRANAS") 
+if ($diagnostico=="RUPTURA PREMATURA DE MEMBRANAS"||
+	$diagnostico=="ROTURA PREMATURA DE MEMBRANAS"||
+	$diagnostico=="ROTURA PREMATURA") 
 {$diagnostico="RUPTURA PREMATURA DE LAS MEMBRANAS";$adv=$advice;}
 if ($diagnostico=="PARTO EUTOCICO") {$diagnostico="O800";$adv=$advice;}
 if ($diagnostico=="GESTANTE") {$diagnostico="GESTA ";$adv=$advice;}
@@ -465,6 +467,9 @@ if ($diagnostico=="CARCINOMATOSIS PERITONEAL") {$diagnostico="TUMOR MALIGNO PERI
 if ($diagnostico=="ISQUEMIA MESENTERICA"||$diagnostico=="ISQUEMIA AGUDA MESENTERICA") {$diagnostico="K550";$adv=$advice;}
 if ($diagnostico=="ADENOCARCINOMA ANGULO HEPATICO") {$diagnostico="C183";$adv=$advice;}
 if ($diagnostico=="ARTERIOESCLEROSIS CORONARIA") {$diagnostico="I251";$adv=$advice;}
+
+if ($diagnostico=="SINDROME CORONARIO"||$diagnostico=="SINDROME CORONARIO AGUDO") {$diagnostico="I251";$adv=$advice;}
+
 if ($diagnostico=="ARTRITIS INFECCIOSA") {$diagnostico="M00";$adv=$advice;}
 if ($diagnostico=="LEUCEMIA LINFOIDE CRONICA") {$diagnostico="C911";$adv=$advice;}
 if ($diagnostico=="J460") {$diagnostico="J46";/*$adv=$advice;*/}

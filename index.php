@@ -1,7 +1,7 @@
 <?php 
-
- 
-
+header('Cache-Control: no-cache, no-store, must-revalidate'); // HTTP 1.1.
+header('Pragma: no-cache'); // HTTP 1.0.
+header('Expires: 0'); // Proxies.
 ?>
 <!doctype html>
 <html lang="en">
@@ -27,8 +27,8 @@ include 'modules/includes/imgpaths.php';
   <hr style="width:68%; margin-left:16%">
   <div class="row-fluid span12">
     <div class="offset4">
-      <a class="lead-medium span4" href="http://www.healmydisease.com/HMD/services.html">Con&oacute;cenos</a>
-      <a class="lead-medium span4" href="http://www.healmydisease.com/HMD/contact.html">Contacto</a>
+      <!-- <a class="lead-medium span4" href="http://www.healmydisease.com/HMD/services.html">Con&oacute;cenos</a>
+      <a class="lead-medium span4" href="http://www.healmydisease.com/HMD/contact.html">Contacto</a> -->
     </div>  
   </div>
 </div>
@@ -42,7 +42,7 @@ include 'modules/includes/imgpaths.php';
     <div class="row-fluid">
      <div class="span6">
       <ul class="unstyled">
-        <li><a href="#myModal" data-toggle="modal" data-target="#myModal" style="margin-left:400px">Pol&iacute;ticas de seguridad</a></li>
+        <li><a href="#myModal" data-toggle="modal" data-target="#myModal" style="margin-left:400px">Informaci&oacute;n</a></li>
       </ul>
      </div>
      <div class="span4">
@@ -62,7 +62,7 @@ include 'modules/includes/imgpaths.php';
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
     <p id="myModalLabel"  class="lead" style="lead; margin-top: 30px" >
       <img src="assets/img/logo-navbar.png" style="weight: 56px; height: 29px; opacity: 0.7; margin-left: 15px; margin-right:110px;" align="left">
-      Pol&iacute;tica de Privacidad
+      Pol&iacute;tica de Confidencialidad
     </p>
   </div>
   <div class="modal-body">
@@ -76,7 +76,7 @@ include 'modules/includes/imgpaths.php';
         <p><strong>Nunca le preguntaremos informaci&oacute;n personal excepto de estricta necesidad y bajo su consentimiento.</strong></p>
       </li>
       <li style="margin-left:30px;">
-        <p><strong>No compartimos su informaci&oacute;n personal con terceros excepto los casos que estipula la ley Colombiana, el desarollo de 
+        <p><strong>No compartimos su informaci&oacute;n personal con terceros excepto los casos que estipula la ley, el desarollo de 
           nuestros productos, o la protecci&oacute;n de nuestros derechos.</strong></p>
       </li>
       <br>
